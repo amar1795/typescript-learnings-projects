@@ -1,11 +1,11 @@
+import PostList from "@/components/postList/PostList";
 
-
-const page = () => {
+const PropsExample = () => {
   return (
     <div>
-      
+      <PostList />
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default PropsExample;
