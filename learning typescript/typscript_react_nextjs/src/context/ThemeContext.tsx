@@ -32,6 +32,7 @@ export const ThemeContext = createContext<{
   dispatch: React.Dispatch<ActionType>;
 }>({
   state: INITIAL_STATE,
+  // since dispacth cannot be any function and has to be the React.dispatch function hence we wrote this in the  generics above
   dispatch: () => {},
 });
 
